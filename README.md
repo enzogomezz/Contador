@@ -1,2 +1,0 @@
-# Contador
-Contador básico

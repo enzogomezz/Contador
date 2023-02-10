@@ -4,7 +4,7 @@ function biloto() {
     let fim = document.querySelector("input#fim")
     let res = document.querySelector("p#res")
     let contador = Number((inicio).value)
-    if (inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0 || inicio.value == fim.value) {
+    if (inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0 || inicio.value == fim.value || passo.value == 0) {
         res.innerHTML = `[ERRO] Impossível contar`
         return
     }
